@@ -1,0 +1,154 @@
+/* just for jsfiddle */
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Material Icons'), local('MaterialIcons-Regular'), url(https://fonts.gstatic.com/s/materialicons/v18/2fcrYFNaTjcS6g4U3t-Y5ZjZjT5FdEJ140U2DJYC3mY.woff2) format('woff2');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgba(38, 11, 29, 1);
+}
+.image {
+  height: 750px;
+  width: 100%;
+  background: #55e6c5;
+  z-index: 1;
+}
+
+.content {
+  height: 750px;
+  width:100%;
+  background: white;
+  z-index: 2;
+}
+.content h1 {
+  font-size: 40px;
+  color: #464646;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+}
+.content p {
+  font-size:20px;
+  color: #343434;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+#wall_1 {
+  background: url(https://www.theatredepochegraslin.fr/wp-content/themes/theme1630/images/header.jpg) ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#wall_2 {
+
+  background: url(../img/pattern2.jpg);
+  background-attachment: fixed;
+}
+#wall_3 {
+  background: url(../img/pattern3.jpg) repeat;
+  background-attachment: fixed;
+}
+
+
+.button{
+  float: right;
+
+}
+
+
+#nav {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top:0;
+  left:0;
+  background: #8b0000;
+  z-index: 100;
+  -webkit-box-shadow:0px 0px 20px rgba(44,44,44,.3);
+}
+#nav #logo {
+  height: 40px;
+  width: 170px;
+  position: absolute;
+  top: 0;
+  bottom:0;
+  margin: auto 100px;
+}
+
+#nav #logo img {
+  height: 100%;
+  width: 100%;
+
+}
+
+#content_1 {position: relative;}
+
+h1::first-letter {
+  font-size: 60px;
+  font-weight: 600;
+  color:#3cb0f8;
+}
+
+
+.carousel-caption{
+  color: black;
+  font-weight: bold;
+}
+
+
+.container-fluid{
+  background-color: rgba(0,0,0,1);
+}
+
+
+
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -moz-font-feature-settings: 'liga';
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.middle-indicator{
+  position:absolute;
+  top:50%;
+}
+.middle-indicator-text{
+  font-size: 4.2rem;
+}
+a.middle-indicator-text{
+  color:white !important;
+}
+.content-indicator{
+  width: 64px;
+  height: 64px;
+  background: none;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+
+
+
+
+.carousel {
+  height:700px !important;
+}
