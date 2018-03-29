@@ -146,11 +146,13 @@ nav {
 }
 
 #content_4{
-  height: 1000px;
+  height: auto;
+  padding-left: 4em;
+  padding-right: 4em;
 }
 
 .img-responsive-thumbnail{
-  height: 14em;
+  height: 20em;
   width: auto;
 }
 
@@ -160,4 +162,9 @@ nav {
 
 .caption{
   text-align: left;
+}
+
+.cathegorieSpectacle{
+  margin-left: 1em;
+  margin-bottom: 1em;
 }
