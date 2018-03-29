@@ -132,7 +132,7 @@ a.middle-indicator-text{
 .row{
 
   float: right;
-  
+
 }
 
 nav {
@@ -147,4 +147,17 @@ nav {
 
 #content_4{
   height: 1000px;
+}
+
+.img-responsive-thumbnail{
+  height: 14em;
+  width: auto;
+}
+
+.col-sm-6{
+  text-align: center;
+}
+
+.caption{
+  text-align: left;
 }
