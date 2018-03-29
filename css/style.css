@@ -52,8 +52,11 @@ body {
   background-attachment: fixed;
 }
 #wall_3 {
-  background: url(../img/pattern3.jpg) repeat;
-  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  background: url(../img/pattern3.jpg) no-repeat fixed;
+  background-size: cover;
+  background-position: 0% 0%;
 }
 
 
@@ -132,9 +135,8 @@ a.middle-indicator-text{
   height:700px !important;
 }
 .row{
-
   float: right;
-
+  width: 100%;
 }
 
 nav {
@@ -169,4 +171,10 @@ nav {
 .cathegorieSpectacle{
   margin-left: 1em;
   margin-bottom: 1em;
+}
+
+#content_5{
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-bottom: 2em;
 }
