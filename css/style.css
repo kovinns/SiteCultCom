@@ -21,7 +21,7 @@ body {
 }
 
 .content {
-  height: 750px;
+  height: auto;
   width:100%;
   background: white;
   z-index: 2;
@@ -65,7 +65,9 @@ body {
 
 
 
-#content_1 {position: relative;}
+#content_1 {
+  position: relative;
+}
 
 h1::first-letter {
   font-size: 60px;
