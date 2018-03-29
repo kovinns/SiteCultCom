@@ -40,6 +40,9 @@ $(document).ready(function() {
      $('.carousel').carousel('prev');
   });
 
+    $('.tabs').tabs();
+
+
 
 });
 
