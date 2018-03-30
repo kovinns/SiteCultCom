@@ -48,13 +48,13 @@ body {
 }
 #wall_2 {
 
-  background: url(../img/pattern2.jpg);
+  background: url(http://blog.privateaser.com/wp-content/uploads/2016/07/Louer-une-salle-de-th%C3%A9%C3%A2tre.jpg);
   background-attachment: fixed;
 }
 #wall_3 {
   padding: 0;
   margin: 0;
-  background: url(../img/pattern3.jpg) no-repeat fixed;
+  background: url(http://44.kidiklik.fr/images/activites/45_245_318_1.jpg) no-repeat fixed;
   background-size: cover;
   background-position: 0% 0%;
 }
