@@ -84,6 +84,21 @@ h1::first-letter {
   font-weight: bold;
 }
 
+#idCarousel{
+  margin-top: 3.5%;
+}
+
+#carouselPanel1{
+  background-color: #6E0000 !important;
+}
+
+#carouselPanel2{
+  background-color: #8B0000 !important;
+}
+
+#carouselPanel3{
+  background-color: #980000 !important;
+}
 
 .container-fluid{
   background-color: rgba(0,0,0,1);
